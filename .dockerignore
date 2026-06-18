@@ -1,0 +1,24 @@
+.git
+.venv
+venv
+env
+__pycache__
+*.pyc
+.pytest_cache
+.tox
+htmlcov
+.coverage
+.coverage.*
+coverage.xml
+*.log
+dep_install.log
+.idea
+images
+prototypes
+
+# Secrets / credenciales: nunca deben entrar en las capas de la imagen.
+config.env
+*.env
+certs
+*.pem
+*.key
