@@ -1,3 +1,8 @@
+> **Este repositorio está archivado desde el 2026-10-20.** El motor vive ahora en `engine/` del monorepo
+> [jeremialcala/wh-python-fastapi-messenger](https://github.com/jeremialcala/wh-python-fastapi-messenger/tree/develop/engine),
+> con toda esta historia ([ADR-0023](https://github.com/jeremialcala/wh-python-fastapi-messenger/blob/develop/docs/00-project/adr/0023-monorepo-del-gateway-y-el-motor.md)).
+> Los cambios nuevos van allí.
+
 # ms-python-metamsghandler
 
 Microservicio en Python que **consume, procesa e interpreta** los mensajes entrantes de las plataformas de Meta (**Messenger, WhatsApp e Instagram**). Determina la intención del usuario mediante IA (Ollama), aplica una capa de seguridad (NVIDIA NeMo Guardrails) y publica un resultado clasificado para que un servicio aguas abajo entregue la respuesta.
